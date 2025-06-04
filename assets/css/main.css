@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+/**Header y navegación**/
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nombre-sitio {
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.nombre-sitio span {
+  color: #037bc0;
+}
+
+.contenedor-navegacion {
+  border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
